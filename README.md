@@ -10,8 +10,8 @@
 1. Functions implementing Hierarchical Ensemble Methods for DAGs:
 	* _htd.R_: 	implementation of the HTD algorithm;
 	* _tpr.R_: 	implementation of the TPR algorithm and its variants;
-	* _Do.HTD.R_: 	high level functions to compute the HTD-DAG algorithm;
-	* _Do.TPR.R_:	high level functions to compute TPR-DAG algorithm and its variants;
+	* _Do.HTD.R_: 	high level function to compute hierarchical correction according to HTD algorithm. 
+	* _Do.TPR.R_:	high level functions to compute hierarchical correction according to TPR-DAG algorithm and its variants;
 
 2. Utility Functions:
 	* _graph.utils.R_:	utility functions to process and analyze a graph;
@@ -25,9 +25,7 @@
 	* _AUPROC.R_:	function to compute AUROC and AUPRC through the R package precrec
 
 ## Loading 
-Even if HTD-DAG and TPR-DAG algorithm depend on several other source codes, loading them in the R environment is straightforward.
-For instance to load the high-level function implementing the HTD-DAG algorithm, just open the R environment in the same folder where you download
-the **HierDAG** library and type:
+Even if HTD-DAG and TPR-DAG algorithm depend on several other source codes, loading them in the R environment is straightforward. For instance to load the high-level function implementing the HTD-DAG algorithm, just open the R environment in the same folder where you download the **HierDAG** library and type:
 ```
 source("Do.HTD.R");
 ```
