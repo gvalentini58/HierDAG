@@ -26,7 +26,7 @@
 
 ## Loading 
 Even if HTD-DAG and TPR-DAG algorithm depend on several other source codes, loading them in the R environment is straightforward.
-For instance to load the high-level function computing the HTD-DAG algorithm, just open the R environment in the same folder where you download
+For instance to load the high-level function implementing the HTD-DAG algorithm, just open the R environment in the same folder where you download
 the **HierDAG** library and type:
 ```
 source("Do.HTD.R");
